@@ -1,0 +1,47 @@
+.wArrowP{ 
+    position: absolute;
+
+
+    left: calc((var(--left) - 1 ) * 100px);
+    bottom: calc((var(--bottom) - 1 ) * 100px - 5px);
+
+    width: 100px;
+    height: calc((var(--step) - 1 ) * 100px);
+
+    padding: 10px 0px 95px 0px ; 
+
+    opacity: 1;
+
+}
+
+.wArrowP .content{
+    background-image: url(../../assets/img/horizontalArrow.png);
+
+    width: 100%;
+    height: 100%;
+}
+
+.bArrowP{ 
+    position: absolute;
+
+
+    left: calc((var(--left) - 1 ) * 100px);
+    bottom: calc((var(--bottom) - var(--step)) * 100px - 5px);
+
+    width: 100px;
+    height: calc(var(--step) * 100px);
+
+    padding: 88px 0px 20px 0px ; 
+
+    opacity: 1;
+
+}
+
+.bArrowP .content{
+    background-image: url(../../assets/img/horizontalArrow.png);
+
+    transform: rotate(180deg);
+
+    width: 100%;
+    height: 100%;
+}

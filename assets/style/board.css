@@ -1,4 +1,5 @@
 .board{
+    position: relative;
     width: 810px;
     height: 810px;
     display: flex;
@@ -15,10 +16,10 @@
     position: relative;
 }
 
-.case.c1{
+.case.C1{
     background: red;
 }
 
-.case.c2{
+.case.C2{
     background: green;
 }

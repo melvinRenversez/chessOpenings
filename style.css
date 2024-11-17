@@ -7,7 +7,7 @@ body {
     overflow-x: hidden;
 }
 header{
-    background-image: url(assets/img/background-home.jpg);
+    background-image: url(assets/img/backgroundHome.jpg);
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -52,7 +52,7 @@ section{
     width: 230px;
     height: 300px;
     border-radius: 10px;
-    background-image: url(assets/img/background-box.jpg);
+    background-image: url(assets/img/backgroundBox.jpg);
     background-size: cover;
     background-position: center;
     margin: 30px;
