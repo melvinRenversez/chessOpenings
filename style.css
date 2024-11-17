@@ -3,16 +3,19 @@
     margin: 0;
     padding: 0;
 }
-
+body {
+    overflow-x: hidden;
+}
 header{
-    background-image: url(assets/img/background.jpg);
+    background-image: url(assets/img/background-home.jpg);
     background-size: cover;
     height: 100vh;
     display: flex;
-padding-top: 200px;
+    padding-top: 200px;
     justify-content: center;
 }
 header h1{
+    position: absolute;
     color: white;
     font-size: 70px;
     transform: translateX(1500px);
@@ -26,4 +29,69 @@ header h1{
         transform: translateX(0px);
     }
     
+}
+
+section{
+    background: #474B4D;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.boxs {
+    background: #6E6D73;
+    max-width: 80%;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.boxs .box{
+    background: orange;
+    width: 230px;
+    height: 300px;
+    border-radius: 10px;
+    background-image: url(assets/img/background-box.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 30px;
+}
+
+.boxs .box a{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.boxs .box a .top{
+    display: flex;
+    height: 30%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.boxs .box a .top h3{
+    display: flex;
+    height: 30%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.boxs .box a .bottom{
+    display: flex;
+    height: 70%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.boxs .box a .bottom img{
+    opacity: 0.90;
 }
