@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url(assets/img/background.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+padding-top: 200px;
+    justify-content: center;
+}
+header h1{
+    color: white;
+    font-size: 70px;
+    transform: translateX(1500px);
+    animation: translateLeft0 1.5s ease-out forwards;
+}
+
+@keyframes translateLeft0 {
+    0% {
+    }
+    100% {
+        transform: translateX(0px);
+    }
+    
+}
